@@ -1,44 +1,92 @@
-# sfh-galaxy-rotation-curves
-Reproducible analysis of disk galaxy rotation curves in the Spacetime Flow Hypothesis (SFH), using observed baryonic mass distributions only. The framework reproduces inner rises, flat outer profiles, and dense-core suppression across a 20-galaxy benchmark sample without invoking dark matter halos or modified force laws.
+# SFH Galaxy Rotation Curves — Reproducible Analysis
 
-# SPARC Baryonic Rotation-Curve Decomposition Data
+This repository provides the full reproducible analysis associated with the paper:
 
-This directory contains baryonic rotation-curve decomposition files used in the
-analysis presented in:
+**“Galaxy Rotation Curves Without Dark Matter Halos:  
+A First-Principles Causal Framework (SFH Field Theory)”**  
+Daniel Beaupré (2026)
 
-> Beaupré, D. (2026),  
-> *Galaxy Rotation Curves Without Dark Matter Halos: A First-Principles Causal Framework*.
+The Spacetime Flow Hypothesis (SFH) models gravity as resistance to the flow of proper time,
+described by a Lorentz-invariant vector field and a scalar resistance function.
+This repository contains the notebooks, scripts, and input data required to reproduce
+the galaxy rotation curve results presented in the paper.
 
-The archive `Rotmod_LTG.zip` contains rotation-model (rotmod) files derived from
-the **SPARC (Spitzer Photometry & Accurate Rotation Curves)** database.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/dbeaup01/<REPO_NAME>/blob/main/<NOTEBOOK_NAME>.ipynb
+)
 
-## Original Data Source
+---
 
-The SPARC database was compiled and released by:
+## Repository Contents
 
-- Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016),  
-  *SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves*,  
-  **The Astronomical Journal**, 152, 157  
-  https://sparc.spitzer.caltech.edu
+The associated manuscript is archived on Zenodo and should be cited independently:
 
-The original data remain the intellectual property of the SPARC collaboration
-and are publicly available for scientific use.
+Beaupré, D. (2026).  
+*Galaxy Rotation Curves Without Dark Matter Halos: A First-Principles Causal Framework (SFH Field Theory).*  
+Zenodo. (https://doi.org/10.5281/zenodo.18136466)
 
-## Redistribution and Use
+### 📓 Interactive Notebook
+- `Galaxy_Rotation_Notebook.ipynb`  
+  Primary analysis notebook reproducing individual galaxy rotation curves,
+  including:
+  - baryonic mass profiles
+  - Poisson → Laplace transition
+  - azimuthal (spin) flow component
+  - combined SFH velocity predictions
 
-The files provided here are redistributed **unchanged** and **without modification**
-for the sole purpose of ensuring **computational reproducibility** of the results
-reported in the above publication.
+### 📦 Batch Processing Tools
+- `SFH_MultiGalaxy_BatchKit.zip`  
+  Scripts and configuration files for running the SFH rotation model across
+  multiple galaxies in a standardized, repeatable manner.
 
-No claim of ownership over the original SPARC data is made.
+### 📦 Input Data
+- `Rotmod_LTG.zip`  
+  SPARC-compatible baryonic rotation model files (`rotmod`) used as inputs
+  for the SFH analysis. These files contain observationally derived stellar and
+  gas mass distributions only.
 
-Users of these data **must cite the original SPARC reference** listed above in any
-derivative work or analysis.
+---
 
-## Notes
+## Scope and Modeling Notes
 
-- These files are used exclusively to compute baryonic contributions to galaxy
-  rotation curves.
-- No dark-matter halo models or empirical fitting functions are included.
-- Any errors or interpretations arising from their use in this repository are
-  the responsibility of the present author and not of the SPARC collaboration.
+- This analysis **does not assume dark matter halos**.
+- Galaxy rotation curves are modeled using **baryonic mass distributions only**,
+  combined with SFH-motivated flow dynamics.
+- Certain shape and transition parameters are treated **per galaxy** and are
+  explicitly acknowledged as phenomenological at this stage.
+- No empirical force laws or MOND-style interpolation functions are used.
+
+This repository is intended as a **transparent, reproducible validation test**
+of the SFH framework in the context of galaxy dynamics.
+
+---
+
+## Reproducibility
+
+All figures and tables in the paper can be regenerated using the provided notebook
+and input data. No proprietary software is required.
+
+Python ≥ 3.9  
+Key dependencies:
+- numpy
+- scipy
+- pandas
+- matplotlib
+- astropy
+
+---
+
+## Citation
+
+If you use or reference this work, please cite:
+
+Beaupré, D. (2026).  
+*Galaxy Rotation Curves Without Dark Matter Halos: A First-Principles Causal Framework.*  
+Zenodo. DOI: (add DOI here)
+
+---
+
+## Contact
+
+Correspondence and reproducibility questions may be submitted via GitHub Issues
+on this repository.
