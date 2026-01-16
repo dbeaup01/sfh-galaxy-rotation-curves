@@ -45,6 +45,19 @@ Zenodo. (https://doi.org/10.5281/zenodo.18136466)
   for the SFH analysis. These files contain observationally derived stellar and
   gas mass distributions only.
 
+### 📊 Benchmark & Audit Table
+
+- **`rotation_curve_audit_grid_20.xlsx`**  
+  Master audit table summarizing the 20-galaxy benchmark analysis, including:
+  - per-galaxy pass/fail classification  
+  - fitted SFH parameter values  
+  - radial coverage and data-quality metrics  
+  - RMSE before and after γΦ correction  
+  - qualitative notes and interpretation flags  
+
+  This table serves as a transparent **summary ledger and reproducibility audit**
+  for the multi-galaxy SFH rotation-curve analysis.
+
 ---
 
 ## Scope and Modeling Notes
