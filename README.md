@@ -11,9 +11,7 @@ described by a Lorentz-invariant vector field and a scalar resistance function.
 This repository contains the notebooks, scripts, and input data required to reproduce
 the galaxy rotation curve results presented in the paper.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/dbeaup01/<REPO_NAME>/blob/main/<NOTEBOOK_NAME>.ipynb
-)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dbeaup01/sfh-galaxy-rotation-curves/blob/main/Galaxy_Rotation_Notebook.ipynb)
 
 ---
 
