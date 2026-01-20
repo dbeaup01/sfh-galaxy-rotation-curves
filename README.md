@@ -95,11 +95,12 @@ If you use or reference this work, please cite:
 
 Beaupré, D. (2026).  
 *Galaxy Rotation Curves Without Dark Matter Halos: A First-Principles Causal Framework.*  
-Zenodo. DOI: (add DOI here)
+
 
 ---
 
 ## Contact
 
+email: danbpr¨research@yahoo.com
 Correspondence and reproducibility questions may be submitted via GitHub Issues
 on this repository.
