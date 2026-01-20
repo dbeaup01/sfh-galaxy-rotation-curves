@@ -101,6 +101,6 @@ Beaupré, D. (2026).
 
 ## Contact
 
-email: danbpr¨research@yahoo.com
+email: danbpr_research@yahoo.com
 Correspondence and reproducibility questions may be submitted via GitHub Issues
 on this repository.
