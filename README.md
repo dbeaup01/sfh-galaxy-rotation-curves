@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18136466.svg)](https://doi.org/10.5281/zenodo.18136466)
+
 # SFH Galaxy Rotation Curves — Reproducible Analysis
 
 This repository provides the full reproducible analysis associated with the paper:
